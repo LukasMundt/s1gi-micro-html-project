@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lukas Mundt</title>
+    <link rel="stylesheet" href="style/hello.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="media/Logo50x50.png"/>
+  </head>
+  <body>
+    <div class="container">
+      <section id="section-intro">
+        <div class="wrapper">
+          <h1>Lukas Mundt</h1>
+          <p>an der</p>
+          <a href="hello2.html" target="_blank"
+            ><img
+              src="media/haw-berlinerTor.jpg"
+              width="40%"
+              alt="Bild vom Eingang des Gebäudes BT5 der HAW am Standort Berliner Tor, einige Menschen stehen davor."
+          /></a>
+        </div>
+  
+        <div class="next-arrow">
+          <a href="#section-contact-infos" title="Nächster Abschnitt">
+            <img src="media/arrow-down-circle-solid.svg"
+          /></a>
+        </div>
+      </section>
+  
+      <section id="section-contact-infos">
+        <div class="wrapper">
+          <h2>Kontaktdaten</h2>
+          <table style="width: 100%">
+            <tbody>
+              <tr>
+                <td>Mail</td>
+                <td>
+                  <a href="mail@example.com"
+                    >mail@example.com</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>Mobil</td>
+                <td>
+                  <a href="tel:0123456789">0123456789</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+  
+        <div class="next-arrow">
+          <a href="#section-contact-form" title="Nächster Abschnitt">
+            <img src="media/arrow-down-circle-solid.svg"
+          /></a>
+        </div>
+      </section>
+  
+      <section id="section-contact-form">
+        <div class="wrapper">
+          <h2>Kontaktformular</h2>
+          <form
+            class="contact-form"
+            method="post"
+            action="mailto:mail@example.org"
+          >
+            <label for="name">Name</label>
+            <input
+              name="name"
+              id="name"
+              placeholder="Max Mustermann"
+              type="text"
+              required
+            />
+            <label for="mail">E-Mail</label>
+            <input
+              name="mail"
+              id="mail"
+              placeholder="max.mustermann@example.org"
+              type="email"
+              required
+            />
+            <label for="message">Deine Nachricht</label>
+            <textarea
+              rows="6"
+              required
+              name="message"
+              id="message"
+              placeholder="Schreibe hier deine Nachricht an mich"
+            ></textarea>
+            <input type="submit" />
+          </form>
+        </div>
+        <div class="next-arrow">
+          <a href="#section-haw-image" title="Nächster Abschnitt">
+            <img src="media/arrow-down-circle-solid.svg"
+          /></a>
+        </div>
+      </section>
+      <section class="haw-section" id="section-haw-image">
+        <div class="next-arrow">
+          <a href="#section-intro" title="Zurück zum Anfang">
+            <img src="media/arrow-up-circle-solid.svg"
+          /></a>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

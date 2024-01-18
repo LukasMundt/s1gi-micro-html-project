@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  color: white;
+  background-color: #121728;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  overflow-y: auto;
+  flex-flow: column nowrap;
+}
+
+.container > section {
+  scroll-snap-align: center;
+  height: 100%;
+  text-align: center;
+  flex: none;
+  position: relative;
+}
+
+a {
+  color: lightblue;
+}
+
+input,
+textarea {
+  padding: 1%;
+}
+
+section > .wrapper {
+  position: absolute;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.next-arrow {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+.next-arrow > a > img {
+  width: 3%;
+}
+
+.contact-form {
+  display: grid;
+  gap: 10px;
+}
+
+.haw-section {
+  background-image: url(../media/haw-berlinerTor.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
